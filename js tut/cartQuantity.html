@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson5</title>
+    <style>
+        button{
+            height: 2cm;
+            width: 4cm;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="
+        console.log(`cardquantity=${cardquantity}`);
+        ">show quantity</button>
+
+
+    <button onclick="
+       cardquantity=cardquantity +1;
+       console.log(`cardquantity=${cardquantity}`);
+    ">add to card</button>
+
+    <button  
+    onclick="cardquantity=cardquantity+2;
+    console.log(`cardquantity=${cardquantity}`) ; "
+    >+2</button>
+
+
+    <button  
+    onclick="cardquantity=cardquantity+3;
+    console.log(`cardquantity=${cardquantity}`) ; "
+    >+3</button>
+
+
+    <button 
+    onclick="cardquantity=0;
+    console.log(`card was reset`);
+    console.log(`cardquantity=${cardquantity}`) ; "
+    >reset</button>
+</body>
+<script>
+     let cardquantity=0;
+
+
+
+</script>
+</html>
